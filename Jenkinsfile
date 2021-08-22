@@ -15,7 +15,7 @@ pipeline {
 
     stage('deploy') {
       steps {
-        echo 'deploying to Dev Env.'
+        echo 'deploying to QA Env.'
       }
     }
 
