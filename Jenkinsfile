@@ -7,7 +7,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'building code for my application'
-        echo 'building cversion ${ NEW_VERSION}'
+        echo "building version ${NEW_VERSION}"
       }
     }
 
